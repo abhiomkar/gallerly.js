@@ -12,15 +12,15 @@ h1 {
   display: none;
 }
 
-#app.container {
+#gallerly.container {
   width: 950px;
 }
 
-#app .image-viewer {
+#gallerly .image-viewer {
   position: relative;
 }
 
-#app .image-viewer .preview {
+#gallerly .image-viewer .preview {
   position: absolute;
   width: 100%;
   background-color: #1D1D1D;
@@ -31,17 +31,17 @@ h1 {
   border-radius: 5px;
 }
 
-#app .image-viewer .preview img {
+#gallerly .image-viewer .preview img {
   float: left;
   height: 300px;
   margin-right: 15px;
 }
 
-#app .image-viewer > a > img {
+#gallerly .image-viewer > a > img {
   height: 150px;
 }
 
-#app .image-viewer > a {
+#gallerly .image-viewer > a {
   cursor: pointer;
   border: 1px solid #f1f1f1;
   padding: 3px;
@@ -49,12 +49,12 @@ h1 {
   display: inline-block;
 }
 
-#app .image-viewer > a:hover {
+#gallerly .image-viewer > a:hover {
   border: 1px solid #aaa;
 
 }
 
-#app * {
+#gallerly * {
   position: relative;
   -webkit-transition: all 0.15s ease;
 	-moz-transition: all 0.15s ease;
@@ -63,56 +63,56 @@ h1 {
 	transition: all 0.15s ease;
 }
 
-#app .thumbnail.move-down {
+#gallerly .thumbnail.move-down {
   top: 346px;
 }
 
-#app .preview .description {
+#gallerly .preview .description {
 }
 
-#app .preview a {
+#gallerly .preview a {
   cursor: pointer;
   color: white;
   font-weight: 500;
 }
 
-#app .preview .wrapper {
+#gallerly .preview .wrapper {
   position: relative;
   display: inline-block;
 }
 
-#app .preview .close-preview {
+#gallerly .preview .close-preview {
   position: absolute;
   top: 8px;
   right: 5px;
 }
 
-#app .preview .prev {
+#gallerly .preview .prev {
   position: absolute;
   left: 6px;
   top: 50%
 }
 
-#app .preview .next {
+#gallerly .preview .next {
   position: absolute;
   right: 6px;
   top: 50%
 }
 
-#app .preview .preview-content {
+#gallerly .preview .preview-content {
   margin-left: 75px;
   margin-right: 75px;
 }
 
-#app .preview .title {
+#gallerly .preview .title {
   color: #ccc;
 }
 
-#app .preview .description {
+#gallerly .preview .description {
   color: rgba(204, 204, 204, 0.57);
 }
 
-#app .preview .arrow {
+#gallerly .preview .arrow {
   border-bottom: 10px solid #222;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
