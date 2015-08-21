@@ -1,0 +1,123 @@
+html, body {
+  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin: 50px;
+  font-weight: 300;
+}
+
+.hide {
+  display: none;
+}
+
+#app.container {
+  width: 950px;
+}
+
+#app .image-viewer {
+  position: relative;
+}
+
+#app .image-viewer .preview {
+  position: absolute;
+  width: 100%;
+  background-color: #1D1D1D;
+  border: 1px solid #f1f1f1;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+}
+
+#app .image-viewer .preview img {
+  float: left;
+  height: 300px;
+  margin-right: 15px;
+}
+
+#app .image-viewer > a > img {
+  height: 150px;
+}
+
+#app .image-viewer > a {
+  cursor: pointer;
+  border: 1px solid #f1f1f1;
+  padding: 3px;
+  margin: 5px;
+  display: inline-block;
+}
+
+#app .image-viewer > a:hover {
+  border: 1px solid #aaa;
+
+}
+
+#app * {
+  position: relative;
+  -webkit-transition: all 0.15s ease;
+	-moz-transition: all 0.15s ease;
+	-ms-transition: all 0.15s ease;
+	-o-transition: all 0.15s ease;
+	transition: all 0.15s ease;
+}
+
+#app .thumbnail.move-down {
+  top: 346px;
+}
+
+#app .preview .description {
+}
+
+#app .preview a {
+  cursor: pointer;
+  color: white;
+  font-weight: 500;
+}
+
+#app .preview .wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+#app .preview .close-preview {
+  position: absolute;
+  top: 8px;
+  right: 5px;
+}
+
+#app .preview .prev {
+  position: absolute;
+  left: 6px;
+  top: 50%
+}
+
+#app .preview .next {
+  position: absolute;
+  right: 6px;
+  top: 50%
+}
+
+#app .preview .preview-content {
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+#app .preview .title {
+  color: #ccc;
+}
+
+#app .preview .description {
+  color: rgba(204, 204, 204, 0.57);
+}
+
+#app .preview .arrow {
+  border-bottom: 10px solid #222;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  height: 0;
+  position: absolute;
+  top: -10px;
+  width: 0;
+}
